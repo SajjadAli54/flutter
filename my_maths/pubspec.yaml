@@ -1,8 +1,8 @@
 name: my_maths
 description: A new Flutter package project for simple maths operations.
 version: 0.0.1
-homepage: https://github.com/your_username/your_package_name
-repository: https://github.com/your_username/your_package_name.git
+homepage: https://github.com/SajjadAli54/flutter/my_maths
+repository: https://github.com/SajjadAli54/my_maths
 
 environment:
   sdk: ">=3.0.2 <4.0.0"
