@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:getx_weather_app/app/data/location_data.dart';
-import 'package:getx_weather_app/app/data/weather_data.dart';
-import 'package:getx_weather_app/app/repositories/weather_repository.dart';
+import 'package:getx_weather_app/app/modules/data/location_data.dart';
+import 'package:getx_weather_app/app/modules/data/weather_data.dart';
+import 'package:getx_weather_app/app/modules/repositories/weather_repository.dart';
 
 class HomeController extends GetxController {
   final WeatherRepository _weatherRepository = Get.find();

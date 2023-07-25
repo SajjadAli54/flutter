@@ -1,8 +1,8 @@
 import 'dart:convert' as convert;
 import 'dart:developer';
 
-import 'package:getx_weather_app/app/data/location_data.dart';
-import 'package:getx_weather_app/app/data/weather_data.dart';
+import 'package:getx_weather_app/app/modules/data/location_data.dart';
+import 'package:getx_weather_app/app/modules/data/weather_data.dart';
 import 'package:http/http.dart' as http;
 
 class WeatherRepository {

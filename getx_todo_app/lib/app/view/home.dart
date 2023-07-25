@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_weather_app/app/controllers/home.dart';
+import 'package:getx_weather_app/app/modules/controllers/home.dart';
 
 class HomePage extends StatelessWidget {
   final HomeController _controller = Get.find();
