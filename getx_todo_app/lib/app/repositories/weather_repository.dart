@@ -1,8 +1,8 @@
 import 'dart:convert' as convert;
 import 'dart:developer';
 
-import 'package:getx_weather_app/app/data/location.dart';
-import 'package:getx_weather_app/app/data/weather.dart';
+import 'package:getx_weather_app/app/data/location_data.dart';
+import 'package:getx_weather_app/app/data/weather_data.dart';
 import 'package:http/http.dart' as http;
 
 class WeatherRepository {
@@ -16,6 +16,7 @@ class WeatherRepository {
     if (response.statusCode == 200) {
       var jsonResponse =
           convert.jsonDecode(response.body) as Map<String, dynamic>;
+
       log('jsonResponse: $jsonResponse');
       location = Location.fromJson(jsonResponse);
       return location;
